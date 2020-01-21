@@ -1,7 +1,22 @@
 .box-info {
-    color: #8cffff;
+    background-color: #8cffff;
     font-weight: bold;
     text-align: center;
     border: 2px solid #a5a5a5;
+    width: 500px;
+    margin: 0 auto;
 }
-
+.box-with-list {
+    background-color: #ffb6c1;
+    text-align: left;
+    width: 450px;
+}
+.box-with-list h1 {
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
