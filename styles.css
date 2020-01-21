@@ -1,3 +1,6 @@
+h1 {
+    color: #808080;
+}
 .box-info {
     background-color: #8cffff;
     font-weight: bold;
@@ -11,12 +14,39 @@
     text-align: left;
     width: 450px;
 }
+.numbered-list {
+    width: 700px;
+    background-color: #ffffe0;
+    border: 1px solid #000000;
+}
 .box-with-list h1 {
     text-align: center;
+    color: #000000;
 }
 a:link {
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
+}
+#contact {
+    color: #006400;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #808080;
+}
+.sidebar li {
+    display: block;
+    width: 85px;
+}
+.sidebar li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.sidebar li a:hover {
+    background-color: #90ee90;
 }
