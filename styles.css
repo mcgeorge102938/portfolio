@@ -62,15 +62,14 @@ a:hover{
 }
 
 @media only screen and (max-width: 400px) {
+    .box-info {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
   }
   
   /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
-     .box-with-list
-     .box-info
-     .big-box {
-      width: 33%;
-    }
   }
   
   /* Desktop Styles */
