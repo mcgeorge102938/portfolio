@@ -8,16 +8,19 @@ h1 {
     border: 2px solid #a5a5a5;
     width: 500px;
     margin: 0 auto;
+    flex: 2;
 }
 .box-with-list {
     background-color: #ffb6c1;
     text-align: left;
     width: 450px;
+    flex: 1;
 }
 .numbered-list {
     width: 700px;
     background-color: #ffffe0;
     border: 1px solid #000000;
+    flex: 1;
 }
 .box-with-list h1 {
     text-align: center;
@@ -51,3 +54,31 @@ a:hover{
 .sidebar li a:hover {
     background-color: #90ee90;
 }
+
+.big-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 400px) {
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+     .box-with-list
+     .box-info
+     .big-box {
+      width: 33%;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    .box-with-list
+     .box-info
+     .big-box {
+      width: 240px;
+    }
+  }
+
